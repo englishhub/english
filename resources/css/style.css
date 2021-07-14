@@ -358,6 +358,7 @@ footer p{
     box-shadow: 1px ;    
     color:#161616;
     padding:6px 20px;width:120px;
+    height:30px;
 }
 .showPageBtn:hover{
     background-color: rgb(51, 0, 71);
