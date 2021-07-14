@@ -34,6 +34,10 @@ body{
     padding:130px 80px 40px 80px;
     min-height:500px;
 }
+.section-features1 button{
+    width:120px;
+    height:30px;
+}
 section{
     padding:80px 0;
 }
