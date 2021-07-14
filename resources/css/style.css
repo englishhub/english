@@ -42,10 +42,11 @@ section{
 
 .topnav {
     overflow: hidden;
-    background-color: rgb(51, 0, 71);
+    background: #240038;
     position:fixed;
     left:0;top:0;width: 100%;
     z-index:1;
+    box-shadow: 0px 0px 700px 0px rgb(156, 156, 156);
     nav-index:1;
   }
   
@@ -60,13 +61,13 @@ section{
   }
   
   .topnav a:hover {
-    background-color: rgb(241, 241, 241);
-    color: rgb(49, 0, 68);
+    background-color: rgb(21, 0, 31);
+    color: rgb(241, 204, 255);
   }
   
   .topnav a.active {
-    background-color: #313131;
-    color: white;
+    background-color: #11001d;
+    color: rgb(254, 253, 255);
   }
   
   .topnav .icon {
@@ -171,8 +172,11 @@ h5{
 h4{
     font-size:30%;
     margin-top:10px;
-    color:rgb(75, 0, 105);
+    color:rgb(31, 31, 31);
     
+}
+.section-notebook h4{
+    color:rgb(235, 227, 238);
 }
 h5{
     font-size:60%;
@@ -188,6 +192,12 @@ h2:after{
     width:100px;
     margin:0 auto;
     margin-top: 30px;
+}
+.section-video h2:after{
+    background-color: rgb(206, 206, 206);
+}
+.section-notebook h2:after{
+    background-color: rgb(206, 206, 206);
 }
 
 .front{
@@ -210,7 +220,7 @@ h2:after{
     color:rgb(78, 0, 109);
 }
 .section-notebook a{
-    color:rgb(51, 0, 71);
+    color:rgb(255, 255, 255);
 }
 .noicon{
     font-size:400%;
@@ -231,7 +241,7 @@ h2:after{
 .section-notebook{
     color:grey;
     padding:100px 80px 80px 80px;
-    background:#f5f5f5;
+    background: #240038;
     
 }
 
@@ -252,7 +262,7 @@ h2:after{
 }
 .section-video{
     padding:80px 80px 80px 80px;
-    background-color:#f5f5f5;
+    background: #240038;
 }
 .icon-small{
     font-size:100%;
@@ -270,7 +280,7 @@ h2:after{
 }
 
 footer{
-    background-color:#333;
+    background-color:#240038;
     padding:50px;
     font-size:80%;
 }
