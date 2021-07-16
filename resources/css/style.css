@@ -210,7 +210,11 @@ h2:after{
 .section-notebook h2:after{
     background-color: rgb(206, 206, 206);
 }
-
+.section-features1 button{
+    width:120px;
+    height:30px;
+    float:left;
+}
 .front{
     padding:140px 10px 10px 10px;
     height:200px;
@@ -303,7 +307,7 @@ h2:after{
     
 }
 .section-video a{
-    color:rgb(29, 29, 29);
+    color:rgb(255, 255, 255);
 }
 
 footer{
