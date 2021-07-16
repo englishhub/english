@@ -34,11 +34,6 @@ body{
     padding:130px 80px 40px 80px;
     min-height:500px;
 }
-.section-features1 button{
-    width:120px;
-    height:30px;
-    float:left;
-}
 section{
     padding:80px 0;
 }
@@ -47,7 +42,9 @@ section{
 
 .topnav {
     overflow: hidden;
-    background: #240038;
+    background: linear-gradient(-45deg, #460049,#29002b , #00051f, #6d002a);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
     position:fixed;
     left:0;top:0;width: 100%;
     z-index:1;
@@ -128,6 +125,7 @@ section{
 .icon-big1{
     font-size:370%;
     display:block;
+    color:rgb(64, 0, 94);
     margin-bottom:10px;
 }
 .section-features a{
@@ -148,8 +146,9 @@ h1{
     margin-top:0;
   margin-bottom:20px;
    color:rgb(51, 0, 71);
-  font-size: 280%;
+  font-size: 230%;
   word-spacing: 4px;
+  text-align:center;
     letter-spacing: 1px;
 }
 h6{
@@ -180,7 +179,10 @@ h4{
     margin-top:10px;
     color:rgb(31, 31, 31);
     
+    
 }
+
+
 .section-notebook h4{
     color:rgb(235, 227, 238);
 }
@@ -193,7 +195,9 @@ h5{
 h2:after{
     display: block;
     height: 2px;
-    background-color: rgb(51, 0, 71);
+    background: linear-gradient(-45deg, #410024, #220029, #002533, rgb(22, 0, 41));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
     content:" ";
     width:100px;
     margin:0 auto;
@@ -201,6 +205,7 @@ h2:after{
 }
 .section-video h2:after{
     background-color: rgb(206, 206, 206);
+    text-align:center;
 }
 .section-notebook h2:after{
     background-color: rgb(206, 206, 206);
@@ -212,7 +217,7 @@ h2:after{
 }
 .front-logo{
     width:95%;
-    padding-left:20;
+    
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
     z-index:-1;
 }
@@ -232,7 +237,15 @@ h2:after{
     font-size:400%;
     color:rgb(51, 0, 71);
     float:left;
+
     margin-left:0;
+}
+.noicon1{
+    font-size:400%;
+    color:rgb(255, 255, 255);
+    float:left;
+
+    
 }
 .section-textbook noicon{
     color:rgb(51, 0, 71);
@@ -247,7 +260,9 @@ h2:after{
 .section-notebook{
     color:grey;
     padding:100px 80px 80px 80px;
-    background: #240038;
+    background: linear-gradient(-45deg, #460049,#29002b , #00051f, #6d002a);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
     
 }
 
@@ -268,10 +283,16 @@ h2:after{
 }
 .section-video{
     padding:80px 80px 80px 80px;
-    background: #240038;
+    background: linear-gradient(-45deg, #460049,#29002b , #00051f, #6d002a);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
 }
 .icon-small{
     font-size:100%;
+}
+.icon-small2{
+    font-size:100%;
+    
 }
 .long-copy{
     line-height:145%;
@@ -286,8 +307,11 @@ h2:after{
 }
 
 footer{
-    background-color:#240038;
+    background: linear-gradient(-45deg, #410024, #220029, #002533, rgb(22, 0, 41));
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
     padding:50px;
+    color:white;
     font-size:80%;
 }
 
@@ -362,8 +386,7 @@ footer p{
     background:#f0f0f0;
     box-shadow: 1px ;    
     color:#161616;
-    padding:6px 20px;width:120px;
-    height:30px;
+    padding:6px 20px;
 }
 .showPageBtn:hover{
     background-color: rgb(51, 0, 71);
@@ -418,10 +441,35 @@ footer p{
     transition: all 0.3s ease-in-out;
 }
 #fbox:hover{
-    background:#350053;
+    height:185px;
+    width:190px;
+    background-image: linear-gradient(bottom, #1e0030, #460031 60%, transparent 60%, transparent 100%);
+    background-image: -webkit-linear-gradient(bottom, #1e0030, #460031 60%, transparent 60%, transparent 100%);
     color:white;
+    box-shadow:10px 5px 30px 5px rgb(168, 168, 168);
     border-radius:0px 40px 0px 20px;
 }
 #fbox:hover a{
     color:White;
+}
+.section-vector{
+    
+    width:68%;
+    height:auto;
+    text-align:center;
+    padding:0px;
+    z-index:1;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
