@@ -18,16 +18,19 @@
 
 </head>
 <body>
+    <button onclick="topFunction()"><img id="myBtn" class="scrolltop" src="resources/img/scroll.png"></button>
     <header>
         <nav>
             
 
         <div class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
+            <a href="#video">Video lectures</a>
             <a href="#textbook">Textbooks</a>
             <a href="#notebook">Notes</a>
             <a href="#materials">Study materials</a>
-            <a href="#video">Video lectures</a>
+            
+            <a href="#contact">Contact us</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="ion-android-menu icon-smalll"></i>
             </a>
@@ -375,6 +378,29 @@
           })
       })
 </script>
+
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/respond@0.9.0/main.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
