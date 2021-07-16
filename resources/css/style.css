@@ -309,6 +309,10 @@ h2:after{
 .section-video a{
     color:rgb(255, 255, 255);
 }
+.section-video a:hover{
+    color:rgb(255, 82, 120);
+    transition: 0.1s;
+}
 
 footer{
     background: linear-gradient(-45deg, #410024, #220029, #002533, rgb(22, 0, 41));
