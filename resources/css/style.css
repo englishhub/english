@@ -257,7 +257,9 @@ h2:after{
 .section-materials noicon{
         color:rgb(51, 0, 71);
         }
-
+.section-materials a:hover{
+    color:#b40045;
+}
 .textbook sup{
     font-size:60%;
 }
